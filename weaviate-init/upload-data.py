@@ -35,6 +35,7 @@ for filename in os.listdir(sku_metadata_dir):
             }
 
 counter = 0
+start = time.time()
 for encoded_file_path in os.listdir("./base64_images"):
     f = open("./base64_images/"+encoded_file_path)
     base64_encoding = f.readlines()
