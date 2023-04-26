@@ -1,6 +1,6 @@
-Weaviate Virtual Store!
+<h1> Welcome to the Ref2Vec eCommerce Demo! </h1>
 
-First Initialize Weaviate by running these commands:
+Step 1: Initialize Weaviate by running these commands:
 
 ```bash
 cd weaviate-init
@@ -9,9 +9,14 @@ python3 create-schema.py
 python3 upload-data.py
 ```
 
-Now you are al set!
+Step 2: Run the app
 
-Run the app with:
-`uvicorn main:app --reload`
+Now you are all set!
 
-And visualize on `localhost:8000`
+Navigate out of the `weaviate-init` folder like this and start the FastAPI app!
+```bash
+cd ..
+uvicorn main:app --reload
+```
+
+The app is now running on `localhost:8000`
