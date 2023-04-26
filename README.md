@@ -1,6 +1,6 @@
 <h1> Welcome to the Ref2Vec eCommerce Demo! </h1>
 
-<h3>Step 1: Download the images!</h3>
+<h2>Step 1: Download the images!</h2>
 
 Download base64_images for upload - https://drive.google.com/file/d/1TDohvh6vyC6Ugd2NlrfhkAvwPfpjnBg3/view?usp=sharing
 
@@ -10,7 +10,7 @@ Download images for showing the images locally - https://drive.google.com/file/d
 
 Put this folder in `static`
 
-<h3>Step 2: Now Initialize Weaviate by running these commands:</h3>
+<h2>Step 2: Now Initialize Weaviate by running these commands:</h2>
 
 ```bash
 cd weaviate-init
@@ -19,7 +19,7 @@ python3 create-schema.py
 python3 upload-data.py
 ```
 
-<h3>Step 3: Run the app</h3>
+<h2>Step 3: Run the app</h2>
 
 Now you are all set!
 
