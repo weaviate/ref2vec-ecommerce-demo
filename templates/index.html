@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Page</title>
+        <link rel="stylesheet" href="/static/css/styles.css">
+        <script src="/static/js/controller.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <input type="text" class="search-bar" id="search-bar" placeholder="Search...">
+              </div>
+            </div>
+            <div class="row row-filter">
+                <div class="col">
+                  <div class="image-grid">
+                    {% for key, value in data.items() %}
+                    <div class="image-cell">
+                      <img src="{{ url_for('static', path=value.image_path) }}" id="{{ value.image_path }}">
+                      <h2>Distance to centroid: {{ value.distance }}</h2>
+                    </div>
+                    {% endfor %}
+                  </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
