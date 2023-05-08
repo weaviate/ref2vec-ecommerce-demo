@@ -1,5 +1,7 @@
 <h1> Welcome to the Ref2Vec eCommerce Demo! </h1>
 
+For more info, check out our blog post announcing ref2vec! - https://weaviate.io/blog/ref2vec-centroid
+
 <h2>Step 1: Download the images!</h2>
 
 Download base64_images for upload - https://drive.google.com/file/d/1TDohvh6vyC6Ugd2NlrfhkAvwPfpjnBg3/view?usp=sharing
